@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/john/Desktop/launchcode/TechJobsAuthentication/TechJobsAuthentication.csproj": {}
+    "/Users/matthewcreek/Desktop/LaunchCode/csharp/chapters/TechJobsAuth/TechJobsAuthentication/TechJobsAuthentication.csproj": {}
   },
   "projects": {
-    "/home/john/Desktop/launchcode/TechJobsAuthentication/TechJobsAuthentication.csproj": {
+    "/Users/matthewcreek/Desktop/LaunchCode/csharp/chapters/TechJobsAuth/TechJobsAuthentication/TechJobsAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/Desktop/launchcode/TechJobsAuthentication/TechJobsAuthentication.csproj",
+        "projectUniqueName": "/Users/matthewcreek/Desktop/LaunchCode/csharp/chapters/TechJobsAuth/TechJobsAuthentication/TechJobsAuthentication.csproj",
         "projectName": "TechJobsAuthentication",
-        "projectPath": "/home/john/Desktop/launchcode/TechJobsAuthentication/TechJobsAuthentication.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/Desktop/launchcode/TechJobsAuthentication/obj/",
+        "projectPath": "/Users/matthewcreek/Desktop/LaunchCode/csharp/chapters/TechJobsAuth/TechJobsAuthentication/TechJobsAuthentication.csproj",
+        "packagesPath": "/Users/matthewcreek/.nuget/packages/",
+        "outputPath": "/Users/matthewcreek/Desktop/LaunchCode/csharp/chapters/TechJobsAuth/TechJobsAuthentication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "/Users/matthewcreek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -42,9 +47,17 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
@@ -69,10 +82,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
         }
       }
     }
